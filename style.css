@@ -1,0 +1,114 @@
+<style type:"text/css">
+.container 
+{
+    position: relative;
+    font-family: Arial;
+}
+@media screen and (min-width: 500px) {
+    .div-bg {
+        background-color: rgb(1, 255, 242);
+        width: 300px;
+        height: 300px;
+    }
+
+    .less {
+        display: none;
+    }
+
+    .more {
+        display: initial;
+    }
+}
+
+
+.text-block {
+    position: absolute;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.cars
+{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    background-color: rgb(0, 255, 153);
+    border-radius: 2%;
+   
+}
+.altroz
+{
+    height: 100%;
+    width: 100%;
+    transition: 0.2s;
+}
+.altroz:hover
+{
+    scale: 1.1;
+}
+.cars1
+{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    background-color: whitesmoke;
+}
+.cars2
+{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    background-color: rgba(27, 181, 114);
+}
+#dream
+{   
+    background-color: red;
+}
+
+.shiva
+{
+
+    font-size: 20px;
+}
+.container
+{
+    border-radius: 20px;
+    border-style: calc();
+}
+#text
+{
+    width: 150px; 
+    font-size: 20px;
+}
+#text1
+{
+    border-radius: 10%;
+}
+#main
+{
+    border: 5px solid black;
+    border-radius: 2%;
+/* }
+#strong
+{
+    color: white;
+} */
+.id
+{
+    border: 2px dotted blue ;
+    position: sticky;
+    padding: 20px;
+}
+.container1
+{
+    margin: 5%;
+}
+.rows
+{
+    border: 2px solid red;
+}
+
+</style>
